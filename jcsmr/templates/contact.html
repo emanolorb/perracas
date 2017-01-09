@@ -1,0 +1,153 @@
+{% extends 'base/base.html' %}
+
+{% block extrastatic %}
+<link rel="shortcut icon" href="/media/{{ img4 }}"/>
+<!-- style css -->
+    {{ block.super }}
+    <style>
+                .parallax-container{
+                    height: 480px;
+                }
+                div.parallax-container{
+                    z-index: 1;
+                }
+                /* este es el efecto de los botones cabeceras de inicio */
+                div.arriba{
+                    z-index: 2;
+                }
+                .hvr-border-fade {
+                display: inline-block;
+                vertical-align: middle;
+                -webkit-transform: perspective(1px) translateZ(0);
+                transform: perspective(1px) translateZ(0);
+                box-shadow: 0 0 1px transparent;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: box-shadow;
+                transition-property: box-shadow;
+                box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+                /* Hack to improve aliasing on mobile/tablet devices */
+                }
+                .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
+                box-shadow: inset 0 0 0 4px #716554, 0 0 1px transparent;
+                /* Hack to improve aliasing on mobile/tablet devices */
+                }
+                /* tipografia */
+                html {
+                    font-family: GillSans;
+                }
+    </style>
+{% endblock %}
+{% block navbar %}
+
+{% endblock %}
+
+{% block title %}
+    JC's - Home
+{% endblock %}
+
+{% block content %}
+<section>
+<!-- seccion parallax -->
+        <div class="parallax-container">
+            <div class="parallax row">
+                <img src="/media/{{ img2 }}"> 
+            </div>
+                <div class="arriba">
+                    <div class="row"></div>
+                    <div class="row">
+                        <div class="col s12 m4 l4">
+                            <a href="/" class="hvr-border-fade btn-large white-text btn-flat btn"><strong>Home</strong></a>
+                            <a href="#" class="hvr-border-fade btn-large white-text btn-flat"><strong>History</strong></a>
+                            <a href="#" class="hvr-border-fade btn-large white-text btn-flat"><strong>Menus</strong></a>   
+                        </div>
+                        <div class="col s12 m4 l6 letf"><!-- Aqui va el logo de la empresa --></div>
+                        <div class="col s12 m4 l2"><a href="/contact" class="hvr-border-fade btn-flat btn-large white-text"><strong>CONTACT</strong></a></div>
+                    </div>
+                    <div class="row center-align">
+                        <img src="/media/{{ img1 }}" class = "arriba" alt="" height="280">
+                    </div>
+                    <div class="row center">
+                           <a href="#contactseccion" class=""><img src="/media/prueba.png"></a>
+                    </div>
+               </div>
+        </div>
+<!-- seccion blanca -->
+                <div class="section white">
+        <div class="container">
+            <div class="container">
+                <div class="input-field">
+                <div class="divider"></div>
+                        <h5 class="center">{{ textContact1 }}</h5>
+            <div class="divider"></div>
+                </div>
+    <div id="contactseccion" class="section scrollspy">
+        <div class="col s12 m7">
+            <h2 class="header">Contact us</h2>
+            <div class="card horizontal">
+            <div class="card-image">
+                <img src="/media/{{ imageContact }}">
+            </div>
+            <div class="card-stacked">
+    <!-- cart content-->
+                <div class="card-content col s6">
+<!-- Formulario de contacto -->
+                    <form action="/contact" class="" method="POST">
+                    {% csrf_token %}
+                            <!-- nombre -->
+                            <div class="input-field" name="first_name">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input name="first_name" id="first_name" type="text" class="validate">
+                                <label for="icon_telephone">First name</label>
+                            </div>
+                            <!-- telefono -->
+                            <div class="input-field" name="phone">
+                                <i class="material-icons prefix">phone</i>
+                                    <input name="phone" id="phone" type="tel" class="validate">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <!-- email -->
+                            <div class="input-field" name="email">
+                                <i class="material-icons prefix">email</i>
+                                <input name="email" id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <!-- mensaje -->
+                            <div class="input-field" name="message">
+                                <i class="material-icons prefix">message</i>
+                                <textarea name="message" id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                            <!-- submit -->
+                                <div class="row center">
+                                        <button class="btn waves-effect waves-light" type="submit">SEND
+                                                <i class="material-icons right">send</i>
+                                        </button>
+                                </div>
+                </form>
+            </div>
+      </div>
+            </div>
+            </div>
+            <div class="container">
+                        <h5 class="center">{{ textContact2 }}</h5>
+                </div>
+            </div>
+            <div class="divider"></div>
+            </div>
+            </div>
+        </div>
+        </div>
+                </div>
+    </div>
+</section>
+{% endblock %}
+{% block scrips %}
+<!-- seccion de scripts -->
+    {{ block.super }}
+        <script>
+         $(document).ready(function(){
+         $('.parallax').parallax();
+         });
+        </script>   
+{% endblock %}

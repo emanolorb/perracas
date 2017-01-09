@@ -1,0 +1,27 @@
+<html>
+<head>
+    {% block extrastatic %}
+        {% include 'base/static.html' %}
+    {% endblock%}
+    <meta charset="UTF-8">
+    <title>{% block title %} Document {% endblock %}</title>
+</head>
+<body>
+    <header>
+        {% block navbar %}
+            {% include 'base/navbar.html' %}
+        {% endblock %}
+    </header>
+    <main>
+        {% block content %} 
+
+        {% endblock %}
+    </main>
+        {% block footer %} 
+            {% include 'base/footer.html' %}
+        {% endblock %}
+        {% block scrips %}
+            {% include 'base/scripts.html' %}
+        {% endblock %}
+</body>
+</html>

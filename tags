@@ -1,0 +1,325 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	jcsmr/contacts/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	jcsmr/drinks/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	jcsmr/homepage/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	jcsmr/jcsmr/settings.py	/^ALLOWED_HOSTS = ['*',]$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	jcsmr/jcsmr/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:91
+AddContactForm	jcsmr/contacts/forms.py	/^class AddContactForm(forms.ModelForm):$/;"	kind:class	line:6
+BASE_DIR	jcsmr/jcsmr/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Contact	jcsmr/contacts/models.py	/^class Contact(models.Model):$/;"	kind:class	line:4
+ContactAdmin	jcsmr/contacts/admin.py	/^class ContactAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+ContactsConfig	jcsmr/contacts/apps.py	/^class ContactsConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	jcsmr/jcsmr/settings.py	/^DATABASES = {$/;"	kind:variable	line:80
+DEBUG	jcsmr/jcsmr/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+Drink	jcsmr/drinks/models.py	/^class Drink(models.Model):$/;"	kind:class	line:4
+DrinkAdmin	jcsmr/drinks/admin.py	/^class DrinkAdmin(admin.ModelAdmin):$/;"	kind:class	line:7
+DrinksConfig	jcsmr/drinks/apps.py	/^class DrinksConfig(AppConfig):$/;"	kind:class	line:4
+Enhance	venv/bin/enhancer.py	/^class Enhance(Frame):$/;"	kind:class	line:22
+Food	jcsmr/food/models.py	/^class Food(models.Model):$/;"	kind:class	line:4
+FoodAdmin	jcsmr/food/admin.py	/^class FoodAdmin(admin.ModelAdmin):$/;"	kind:class	line:7
+FoodConfig	jcsmr/food/apps.py	/^class FoodConfig(AppConfig):$/;"	kind:class	line:4
+HomePageImage	jcsmr/homepage/models.py	/^class HomePageImage(models.Model):$/;"	kind:class	line:5
+HomePageImageAdmin	jcsmr/homepage/admin.py	/^class HomePageImageAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+HomePageSlider	jcsmr/homepage/models.py	/^class HomePageSlider(models.Model):$/;"	kind:class	line:39
+HomePageSliderAdmin	jcsmr/homepage/admin.py	/^class HomePageSliderAdmin(admin.ModelAdmin):$/;"	kind:class	line:8
+HomePageText	jcsmr/homepage/models.py	/^class HomePageText(models.Model):$/;"	kind:class	line:57
+HomePageTextAdmin	jcsmr/homepage/admin.py	/^class HomePageTextAdmin(admin.ModelAdmin):$/;"	kind:class	line:11
+HomepageConfig	jcsmr/homepage/apps.py	/^class HomepageConfig(AppConfig):$/;"	kind:class	line:4
+INSTALLED_APPS	jcsmr/jcsmr/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+Interval	venv/bin/explode.py	/^class Interval(object):$/;"	kind:class	line:16
+LANGUAGE_CODE	jcsmr/jcsmr/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:110
+MEDIA_ROOT	jcsmr/jcsmr/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'data\/media')/;"	kind:variable	line:128
+MEDIA_URL	jcsmr/jcsmr/settings.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:127
+MIDDLEWARE	jcsmr/jcsmr/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:46
+MenusConfig	jcsmr/menus/apps.py	/^class MenusConfig(AppConfig):$/;"	kind:class	line:4
+Meta	jcsmr/contacts/forms.py	/^    class Meta:$/;"	kind:class	line:7
+Migration	jcsmr/contacts/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	jcsmr/drinks/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	jcsmr/homepage/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+OverwriteStorage	jcsmr/homepage/storage.py	/^class OverwriteStorage(FileSystemStorage):$/;"	kind:class	line:5
+PILDriver	venv/bin/pildriver.py	/^class PILDriver(object):$/;"	kind:class	line:56
+PaintCanvas	venv/bin/painter.py	/^class PaintCanvas(Canvas):$/;"	kind:class	line:24
+ROOT_URLCONF	jcsmr/jcsmr/settings.py	/^ROOT_URLCONF = 'jcsmr.urls'$/;"	kind:variable	line:56
+SECRET_KEY	jcsmr/jcsmr/settings.py	/^SECRET_KEY = ')6_ufzzhu5h+3mv+vk6mr_d5sdn@@me&0f)3$c3^%(#2)n$(%9'$/;"	kind:variable	line:23
+STATIC_ROOT	jcsmr/jcsmr/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'data\/static')$/;"	kind:variable	line:125
+STATIC_URL	jcsmr/jcsmr/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:124
+TEMPLATES	jcsmr/jcsmr/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:58
+TIME_ZONE	jcsmr/jcsmr/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:112
+UI	venv/bin/player.py	/^class UI(Label):$/;"	kind:class	line:21
+UI	venv/bin/thresholder.py	/^class UI(Frame):$/;"	kind:class	line:22
+UI	venv/bin/viewer.py	/^class UI(Label):$/;"	kind:class	line:20
+USE_I18N	jcsmr/jcsmr/settings.py	/^USE_I18N = True$/;"	kind:variable	line:114
+USE_L10N	jcsmr/jcsmr/settings.py	/^USE_L10N = True$/;"	kind:variable	line:116
+USE_TZ	jcsmr/jcsmr/settings.py	/^USE_TZ = True$/;"	kind:variable	line:118
+VERSION	venv/bin/pilfont.py	/^VERSION = "0.4"$/;"	kind:variable	line:22
+VERSION	venv/bin/pilprint.py	/^VERSION = "pilprint 0.3\/2003-05-05"$/;"	kind:variable	line:20
+WSGI_APPLICATION	jcsmr/jcsmr/settings.py	/^WSGI_APPLICATION = 'jcsmr.wsgi.application'$/;"	kind:variable	line:74
+__getitem__	venv/bin/explode.py	/^    def __getitem__(self, index):$/;"	kind:member	line:44
+__init__	venv/bin/enhancer.py	/^    def __init__(self, master, image, name, enhancer, lo, hi):$/;"	kind:member	line:23
+__init__	venv/bin/explode.py	/^    def __init__(self, interval="0"):$/;"	kind:member	line:18
+__init__	venv/bin/painter.py	/^    def __init__(self, master, image):$/;"	kind:member	line:25
+__init__	venv/bin/player.py	/^    def __init__(self, master, im):$/;"	kind:member	line:23
+__init__	venv/bin/thresholder.py	/^    def __init__(self, master, im, value=128):$/;"	kind:member	line:23
+__init__	venv/bin/viewer.py	/^    def __init__(self, master, im):$/;"	kind:member	line:22
+__init__.py	jcsmr/contacts/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/contacts/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/drinks/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/drinks/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/food/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/food/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/homepage/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/homepage/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/jcsmr/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/jcsmr/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/menus/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/menus/migrations/__init__.py	1;"	kind:file	line:1
+__str__	jcsmr/contacts/models.py	/^    def __str__(self):$/;"	kind:member	line:10
+__str__	jcsmr/drinks/models.py	/^    def __str__(self):$/;"	kind:member	line:10
+__str__	jcsmr/food/models.py	/^    def __str__(self):$/;"	kind:member	line:12
+__str__	jcsmr/homepage/models.py	/^    def __str__(self):$/;"	kind:member	line:35
+__str__	jcsmr/homepage/models.py	/^    def __str__(self):$/;"	kind:member	line:53
+__str__	jcsmr/homepage/models.py	/^    def __str__(self):$/;"	kind:member	line:76
+admin.py	jcsmr/contacts/admin.py	1;"	kind:file	line:1
+admin.py	jcsmr/drinks/admin.py	1;"	kind:file	line:1
+admin.py	jcsmr/food/admin.py	1;"	kind:file	line:1
+admin.py	jcsmr/homepage/admin.py	1;"	kind:file	line:1
+admin.py	jcsmr/menus/admin.py	1;"	kind:file	line:1
+alcoholic_beverage	jcsmr/drinks/models.py	/^    alcoholic_beverage = models.BooleanField(default=False)$/;"	kind:variable	line:7
+aligned_caption	jcsmr/homepage/models.py	/^    aligned_caption = models.CharField($/;"	kind:variable	line:49
+application	jcsmr/jcsmr/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	jcsmr/contacts/apps.py	1;"	kind:file	line:1
+apps.py	jcsmr/drinks/apps.py	1;"	kind:file	line:1
+apps.py	jcsmr/food/apps.py	1;"	kind:file	line:1
+apps.py	jcsmr/homepage/apps.py	1;"	kind:file	line:1
+apps.py	jcsmr/menus/apps.py	1;"	kind:file	line:1
+big_tag_line	jcsmr/homepage/models.py	/^    big_tag_line = models.TextField()$/;"	kind:variable	line:41
+blank_panel_text	jcsmr/homepage/models.py	/^    blank_panel_text = models.TextField()$/;"	kind:variable	line:67
+blank_panel_text_2	jcsmr/homepage/models.py	/^    blank_panel_text_2 = models.TextField()$/;"	kind:variable	line:69
+blank_panel_title	jcsmr/homepage/models.py	/^    blank_panel_title = models.CharField(max_length = 80)$/;"	kind:variable	line:66
+blank_panel_title2	jcsmr/homepage/models.py	/^    blank_panel_title2 = models.CharField(max_length = 80)$/;"	kind:variable	line:68
+choices	jcsmr/homepage/models.py	/^        choices=(('c', 'center'), ('l', 'left'), ('r', 'right')),)$/;"	kind:variable	line:51
+choices	jcsmr/homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:44
+choices	jcsmr/homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:48
+choices	jcsmr/homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:61
+choices	jcsmr/homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:65
+color_big_tag	jcsmr/homepage/models.py	/^    color_big_tag = models.CharField($/;"	kind:variable	line:42
+color_small_tag	jcsmr/homepage/models.py	/^    color_small_tag = models.CharField($/;"	kind:variable	line:46
+color_small_tag	jcsmr/homepage/models.py	/^    color_small_tag = models.CharField($/;"	kind:variable	line:63
+color_title	jcsmr/homepage/models.py	/^    color_title = models.CharField($/;"	kind:variable	line:59
+contact	jcsmr/homepage/views.py	/^def contact(request):$/;"	kind:function	line:62
+convert	venv/bin/pilconvert.py	/^convert = None$/;"	kind:variable	line:53
+createfontdatachunk.py	venv/bin/createfontdatachunk.py	1;"	kind:file	line:1
+dependencies	jcsmr/contacts/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	jcsmr/drinks/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	jcsmr/homepage/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+description	jcsmr/drinks/models.py	/^    description = models.TextField()$/;"	kind:variable	line:6
+description	jcsmr/food/models.py	/^    description = models.TextField()$/;"	kind:variable	line:6
+description	venv/bin/pilprint.py	/^def description(filepath, image):$/;"	kind:function	line:28
+dinner	jcsmr/food/models.py	/^    dinner = models.BooleanField(default=False)$/;"	kind:variable	line:9
+django-admin.py	venv/bin/django-admin.py	1;"	kind:file	line:1
+do_add	venv/bin/pildriver.py	/^    def do_add(self):$/;"	kind:member	line:409
+do_blend	venv/bin/pildriver.py	/^    def do_blend(self):$/;"	kind:member	line:132
+do_brightness	venv/bin/pildriver.py	/^    def do_brightness(self):$/;"	kind:member	line:457
+do_clear	venv/bin/pildriver.py	/^    def do_clear(self):$/;"	kind:member	line:81
+do_color	venv/bin/pildriver.py	/^    def do_color(self):$/;"	kind:member	line:435
+do_composite	venv/bin/pildriver.py	/^    def do_composite(self):$/;"	kind:member	line:142
+do_contrast	venv/bin/pildriver.py	/^    def do_contrast(self):$/;"	kind:member	line:446
+do_convert	venv/bin/pildriver.py	/^    def do_convert(self):$/;"	kind:member	line:166
+do_copy	venv/bin/pildriver.py	/^    def do_copy(self):$/;"	kind:member	line:175
+do_crop	venv/bin/pildriver.py	/^    def do_crop(self):$/;"	kind:member	line:182
+do_darker	venv/bin/pildriver.py	/^    def do_darker(self):$/;"	kind:member	line:369
+do_difference	venv/bin/pildriver.py	/^    def do_difference(self):$/;"	kind:member	line:379
+do_draft	venv/bin/pildriver.py	/^    def do_draft(self):$/;"	kind:member	line:195
+do_dup	venv/bin/pildriver.py	/^    def do_dup(self):$/;"	kind:member	line:95
+do_filter	venv/bin/pildriver.py	/^    def do_filter(self):$/;"	kind:member	line:205
+do_format	venv/bin/pildriver.py	/^    def do_format(self):$/;"	kind:member	line:326
+do_getbbox	venv/bin/pildriver.py	/^    def do_getbbox(self):$/;"	kind:member	line:215
+do_getextrema	venv/bin/pildriver.py	/^    def do_getextrema(self):$/;"	kind:member	line:226
+do_invert	venv/bin/pildriver.py	/^    def do_invert(self):$/;"	kind:member	line:351
+do_lighter	venv/bin/pildriver.py	/^    def do_lighter(self):$/;"	kind:member	line:359
+do_merge	venv/bin/pildriver.py	/^    def do_merge(self):$/;"	kind:member	line:152
+do_mode	venv/bin/pildriver.py	/^    def do_mode(self):$/;"	kind:member	line:333
+do_multiply	venv/bin/pildriver.py	/^    def do_multiply(self):$/;"	kind:member	line:389
+do_new	venv/bin/pildriver.py	/^    def do_new(self):$/;"	kind:member	line:115
+do_offset	venv/bin/pildriver.py	/^    def do_offset(self):$/;"	kind:member	line:235
+do_open	venv/bin/pildriver.py	/^    def do_open(self):$/;"	kind:member	line:125
+do_paste	venv/bin/pildriver.py	/^    def do_paste(self):$/;"	kind:member	line:245
+do_pop	venv/bin/pildriver.py	/^    def do_pop(self):$/;"	kind:member	line:88
+do_resize	venv/bin/pildriver.py	/^    def do_resize(self):$/;"	kind:member	line:261
+do_rotate	venv/bin/pildriver.py	/^    def do_rotate(self):$/;"	kind:member	line:271
+do_save	venv/bin/pildriver.py	/^    def do_save(self):$/;"	kind:member	line:280
+do_save2	venv/bin/pildriver.py	/^    def do_save2(self):$/;"	kind:member	line:289
+do_screen	venv/bin/pildriver.py	/^    def do_screen(self):$/;"	kind:member	line:399
+do_sharpness	venv/bin/pildriver.py	/^    def do_sharpness(self):$/;"	kind:member	line:468
+do_show	venv/bin/pildriver.py	/^    def do_show(self):$/;"	kind:member	line:299
+do_size	venv/bin/pildriver.py	/^    def do_size(self):$/;"	kind:member	line:340
+do_subtract	venv/bin/pildriver.py	/^    def do_subtract(self):$/;"	kind:member	line:421
+do_swap	venv/bin/pildriver.py	/^    def do_swap(self):$/;"	kind:member	line:106
+do_thumbnail	venv/bin/pildriver.py	/^    def do_thumbnail(self):$/;"	kind:member	line:306
+do_transpose	venv/bin/pildriver.py	/^    def do_transpose(self):$/;"	kind:member	line:315
+do_verbose	venv/bin/pildriver.py	/^    def do_verbose(self):$/;"	kind:member	line:60
+driver	venv/bin/pildriver.py	/^    driver = PILDriver()$/;"	kind:variable	line:506
+email	jcsmr/contacts/models.py	/^    email = models.CharField(max_length = 80)$/;"	kind:variable	line:7
+enhancer.py	venv/bin/enhancer.py	1;"	kind:file	line:1
+execute	venv/bin/pildriver.py	/^    def execute(self, list):$/;"	kind:member	line:481
+explode.py	venv/bin/explode.py	1;"	kind:file	line:1
+favicon	jcsmr/homepage/models.py	/^    favicon = models.ImageField()$/;"	kind:variable	line:6
+fields	jcsmr/contacts/forms.py	/^        fields = ['first_name', 'phone', 'email', 'message']/;"	kind:variable	line:9
+fields	jcsmr/contacts/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	jcsmr/drinks/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	jcsmr/homepage/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	jcsmr/homepage/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:28
+fields	jcsmr/homepage/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+filename	venv/bin/player.py	/^    filename = sys.argv[1]$/;"	kind:variable	line:85
+filename	venv/bin/viewer.py	/^    filename = sys.argv[1]$/;"	kind:variable	line:45
+files	venv/bin/pilfont.py	/^    files = files + glob.glob(f)$/;"	kind:variable	line:35
+files	venv/bin/pilfont.py	/^files = []$/;"	kind:variable	line:33
+first_name	jcsmr/contacts/models.py	/^    first_name = models.CharField(max_length=80)$/;"	kind:variable	line:5
+font	venv/bin/createfontdatachunk.py	/^    font = "Tests\/images\/courB08"$/;"	kind:variable	line:9
+forms.py	jcsmr/contacts/forms.py	1;"	kind:file	line:1
+fp	venv/bin/pilfont.py	/^        fp = open(f, "rb")$/;"	kind:variable	line:43
+fp	venv/bin/pilprint.py	/^            fp = p.stdin$/;"	kind:variable	line:83
+fp	venv/bin/pilprint.py	/^            fp = sys.stdout$/;"	kind:variable	line:85
+frames	venv/bin/explode.py	/^frames = Interval(",".join(sys.argv[3:]))$/;"	kind:variable	line:77
+get_available_name	jcsmr/homepage/storage.py	/^    def get_available_name(self, name):$/;"	kind:member	line:7
+gifmaker.py	venv/bin/gifmaker.py	1;"	kind:file	line:1
+globfix	venv/bin/pilfile.py	/^def globfix(files):$/;"	kind:function	line:68
+html	venv/bin/explode.py	/^    html = 1$/;"	kind:variable	line:57
+html	venv/bin/explode.py	/^    html = open(file+".html", "w")$/;"	kind:variable	line:92
+html	venv/bin/explode.py	/^html = 0$/;"	kind:variable	line:54
+id	venv/bin/pilfile.py	/^        id = sorted(Image.ID)$/;"	kind:variable	line:51
+im	venv/bin/enhancer.py	/^im = Image.open(sys.argv[1])$/;"	kind:variable	line:54
+im	venv/bin/explode.py	/^im = Image.open(infile)$/;"	kind:variable	line:88
+im	venv/bin/gifmaker.py	/^    im = Image.open(sys.argv[1])$/;"	kind:variable	line:30
+im	venv/bin/painter.py	/^    im = im.convert("RGB")$/;"	kind:variable	line:78
+im	venv/bin/painter.py	/^im = Image.open(sys.argv[1])$/;"	kind:variable	line:75
+im	venv/bin/pilconvert.py	/^        im = im.convert(convert)$/;"	kind:variable	line:92
+im	venv/bin/pilconvert.py	/^    im = Image.open(argv[0])$/;"	kind:variable	line:89
+im	venv/bin/pilfile.py	/^        im = Image.open(file)$/;"	kind:variable	line:82
+im	venv/bin/pilprint.py	/^            im = im.convert("L")$/;"	kind:variable	line:79
+im	venv/bin/pilprint.py	/^        im = Image.open(filepath)$/;"	kind:variable	line:73
+im	venv/bin/thresholder.py	/^    im = im.convert("L")$/;"	kind:variable	line:72
+im	venv/bin/thresholder.py	/^im = Image.open(sys.argv[1])$/;"	kind:variable	line:69
+im	venv/bin/viewer.py	/^    im = Image.open(filename)$/;"	kind:variable	line:50
+index	jcsmr/homepage/views.py	/^def index(request):$/;"	kind:function	line:6
+infile	venv/bin/explode.py	/^infile = sys.argv[1]$/;"	kind:variable	line:74
+initial	jcsmr/contacts/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+initial	jcsmr/drinks/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+initial	jcsmr/homepage/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+ix	venv/bin/explode.py	/^ix = 1$/;"	kind:variable	line:86
+letter	venv/bin/pilprint.py	/^letter = (1.0*72, 1.0*72, 7.5*72, 10.0*72)$/;"	kind:variable	line:25
+list_display	jcsmr/drinks/admin.py	/^    list_display = ['name', 'alcoholic_beverage']$/;"	kind:variable	line:8
+list_display	jcsmr/food/admin.py	/^    list_display = ['name']$/;"	kind:variable	line:8
+list_filter	jcsmr/drinks/admin.py	/^    list_filter = ['name', 'uploaded_at']$/;"	kind:variable	line:11
+list_filter	jcsmr/food/admin.py	/^    list_filter = ['name', 'uploaded_at', 'takeout', 'lunch', 'dinner']$/;"	kind:variable	line:11
+logging_level	venv/bin/pilfile.py	/^        logging_level = "DEBUG"$/;"	kind:variable	line:63
+logging_level	venv/bin/pilfile.py	/^logging_level = "WARNING"$/;"	kind:variable	line:46
+lunch	jcsmr/food/models.py	/^    lunch = models.BooleanField(default=False)$/;"	kind:variable	line:8
+main_icon	jcsmr/homepage/models.py	/^    main_icon = models.ImageField()$/;"	kind:variable	line:7
+manage.py	jcsmr/manage.py	1;"	kind:file	line:1
+max_length	jcsmr/homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:43
+max_length	jcsmr/homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:47
+max_length	jcsmr/homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:50
+max_length	jcsmr/homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:60
+max_length	jcsmr/homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:64
+message	jcsmr/contacts/models.py	/^    message = models.TextField()$/;"	kind:variable	line:8
+model	jcsmr/contacts/forms.py	/^        model = Contact$/;"	kind:variable	line:8
+models.py	jcsmr/contacts/models.py	1;"	kind:file	line:1
+models.py	jcsmr/drinks/models.py	1;"	kind:file	line:1
+models.py	jcsmr/food/models.py	1;"	kind:file	line:1
+models.py	jcsmr/homepage/models.py	1;"	kind:file	line:1
+models.py	jcsmr/menus/models.py	1;"	kind:file	line:1
+monochrome	venv/bin/pilprint.py	/^        monochrome = 0$/;"	kind:variable	line:62
+monochrome	venv/bin/pilprint.py	/^monochrome = 1    # reduce file size for most common case$/;"	kind:variable	line:52
+name	jcsmr/contacts/apps.py	/^    name = 'contacts'$/;"	kind:variable	line:5
+name	jcsmr/contacts/migrations/0001_initial.py	/^            name='Contact',$/;"	kind:variable	line:17
+name	jcsmr/drinks/apps.py	/^    name = 'drinks'$/;"	kind:variable	line:5
+name	jcsmr/drinks/migrations/0001_initial.py	/^            name='Drink',$/;"	kind:variable	line:17
+name	jcsmr/drinks/models.py	/^    name = models.CharField(max_length=80)$/;"	kind:variable	line:5
+name	jcsmr/food/apps.py	/^    name = 'food'$/;"	kind:variable	line:5
+name	jcsmr/food/models.py	/^    name = models.CharField(max_length=80)$/;"	kind:variable	line:5
+name	jcsmr/homepage/apps.py	/^    name = 'homepage'$/;"	kind:variable	line:5
+name	jcsmr/homepage/migrations/0001_initial.py	/^            name='HomePageImage',$/;"	kind:variable	line:17
+name	jcsmr/homepage/migrations/0001_initial.py	/^            name='HomePageSlider',$/;"	kind:variable	line:27
+name	jcsmr/homepage/migrations/0001_initial.py	/^            name='HomePageText',$/;"	kind:variable	line:39
+name	jcsmr/menus/apps.py	/^    name = 'menus'$/;"	kind:variable	line:5
+next	venv/bin/player.py	/^    def next(self):$/;"	kind:member	line:47
+operations	jcsmr/contacts/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	jcsmr/drinks/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	jcsmr/homepage/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+options	venv/bin/pilconvert.py	/^options = {}$/;"	kind:variable	line:55
+outfile	venv/bin/explode.py	/^    outfile = file + "%03d" + ext$/;"	kind:variable	line:84
+outfile	venv/bin/explode.py	/^outfile = sys.argv[2]$/;"	kind:variable	line:75
+output_format	venv/bin/pilconvert.py	/^output_format = None$/;"	kind:variable	line:52
+p	venv/bin/pilfont.py	/^            p = BdfFontFile.BdfFontFile(fp)$/;"	kind:variable	line:49
+p	venv/bin/pilfont.py	/^            p = PcfFontFile.PcfFontFile(fp)$/;"	kind:variable	line:46
+p	venv/bin/pilprint.py	/^            p = subprocess.Popen(printerArgs, stdin=subprocess.PIPE)$/;"	kind:variable	line:82
+paint	venv/bin/painter.py	/^    def paint(self, event):$/;"	kind:member	line:43
+painter.py	venv/bin/painter.py	1;"	kind:file	line:1
+parallax_image1	jcsmr/homepage/models.py	/^    parallax_image1 = models.ImageField()$/;"	kind:variable	line:8
+parallax_image2	jcsmr/homepage/models.py	/^    parallax_image2 = models.ImageField()$/;"	kind:variable	line:9
+phone	jcsmr/contacts/models.py	/^    phone = models.CharField(max_length=80)$/;"	kind:variable	line:6
+pilconvert.py	venv/bin/pilconvert.py	1;"	kind:file	line:1
+pildriver.py	venv/bin/pildriver.py	1;"	kind:file	line:1
+pilfile.py	venv/bin/pilfile.py	1;"	kind:file	line:1
+pilfont.py	venv/bin/pilfont.py	1;"	kind:file	line:1
+pilprint.py	venv/bin/pilprint.py	1;"	kind:file	line:1
+player.py	venv/bin/player.py	1;"	kind:file	line:1
+printerArgs	venv/bin/pilprint.py	/^        printerArgs = ["lpr", "-P%s" % a]$/;"	kind:variable	line:68
+printerArgs	venv/bin/pilprint.py	/^        printerArgs = ["lpr"]$/;"	kind:variable	line:65
+printerArgs	venv/bin/pilprint.py	/^printerArgs = []  # print to stdout$/;"	kind:variable	line:51
+ps	venv/bin/pilprint.py	/^        ps = PSDraw.PSDraw(fp)$/;"	kind:variable	line:87
+push	venv/bin/pildriver.py	/^    def push(self, item):$/;"	kind:member	line:71
+quiet	venv/bin/pilfile.py	/^        quiet = 1$/;"	kind:variable	line:59
+readonly_fields	jcsmr/drinks/admin.py	/^    readonly_fields = ['uploaded_at']$/;"	kind:variable	line:9
+readonly_fields	jcsmr/food/admin.py	/^    readonly_fields = ['uploaded_at']$/;"	kind:variable	line:9
+redraw	venv/bin/thresholder.py	/^    def redraw(self, event=None):$/;"	kind:member	line:49
+repair	venv/bin/painter.py	/^    def repair(self, box):$/;"	kind:member	line:53
+root	venv/bin/enhancer.py	/^root = Tk()$/;"	kind:variable	line:52
+root	venv/bin/painter.py	/^root = Tk()$/;"	kind:variable	line:73
+root	venv/bin/player.py	/^    root = Tk()$/;"	kind:variable	line:87
+root	venv/bin/thresholder.py	/^root = Tk()$/;"	kind:variable	line:67
+root	venv/bin/viewer.py	/^    root = Tk()$/;"	kind:variable	line:47
+save	jcsmr/homepage/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:11
+save	jcsmr/homepage/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:71
+serch_fields	jcsmr/drinks/admin.py	/^    serch_fields = ['name']$/;"	kind:variable	line:10
+serch_fields	jcsmr/food/admin.py	/^    serch_fields = ['name', 'takeout', 'lunch', 'dinner']$/;"	kind:variable	line:10
+setinterval	venv/bin/explode.py	/^    def setinterval(self, interval):$/;"	kind:member	line:22
+settings.py	jcsmr/jcsmr/settings.py	1;"	kind:file	line:1
+slider_image	jcsmr/homepage/models.py	/^    slider_image = models.ImageField()$/;"	kind:variable	line:40
+small_slogan	jcsmr/homepage/models.py	/^    small_slogan = models.TextField()$/;"	kind:variable	line:45
+stack	venv/bin/pildriver.py	/^    stack = []          # Stack of pending operations$/;"	kind:variable	line:69
+storage.py	jcsmr/homepage/storage.py	1;"	kind:file	line:1
+subtitle	jcsmr/homepage/models.py	/^    subtitle = models.TextField()$/;"	kind:variable	line:62
+takeout	jcsmr/food/models.py	/^    takeout = models.BooleanField(default=False)$/;"	kind:variable	line:7
+tests.py	jcsmr/contacts/tests.py	1;"	kind:file	line:1
+tests.py	jcsmr/drinks/tests.py	1;"	kind:file	line:1
+tests.py	jcsmr/food/tests.py	1;"	kind:file	line:1
+tests.py	jcsmr/homepage/tests.py	1;"	kind:file	line:1
+tests.py	jcsmr/menus/tests.py	1;"	kind:file	line:1
+thresholder.py	venv/bin/thresholder.py	1;"	kind:file	line:1
+title	jcsmr/homepage/models.py	/^    title = models.CharField(max_length=80)$/;"	kind:variable	line:58
+title	venv/bin/pilprint.py	/^        title = description(filepath, im)$/;"	kind:variable	line:75
+top	venv/bin/pildriver.py	/^    def top(self):$/;"	kind:member	line:75
+update	venv/bin/enhancer.py	/^    def update(self, value):$/;"	kind:member	line:41
+update_scale	venv/bin/thresholder.py	/^    def update_scale(self, value):$/;"	kind:member	line:44
+uploaded_at	jcsmr/drinks/models.py	/^    uploaded_at = models.DateTimeField(auto_now_add=True, editable=False)$/;"	kind:variable	line:8
+uploaded_at	jcsmr/food/models.py	/^    uploaded_at = models.DateTimeField(auto_now_add=True, editable=False)$/;"	kind:variable	line:10
+urlpatterns	jcsmr/jcsmr/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
+urls.py	jcsmr/jcsmr/urls.py	1;"	kind:file	line:1
+usage	venv/bin/pilconvert.py	/^def usage():$/;"	kind:function	line:25
+verbose	venv/bin/pildriver.py	/^    verbose = 0$/;"	kind:variable	line:58
+verbose	venv/bin/pilfile.py	/^        verbose = 1$/;"	kind:variable	line:57
+verify	venv/bin/pilfile.py	/^        verify = 1$/;"	kind:variable	line:61
+viewer.py	venv/bin/viewer.py	1;"	kind:file	line:1
+views.py	jcsmr/contacts/views.py	1;"	kind:file	line:1
+views.py	jcsmr/drinks/views.py	1;"	kind:file	line:1
+views.py	jcsmr/food/views.py	1;"	kind:file	line:1
+views.py	jcsmr/homepage/views.py	1;"	kind:file	line:1
+views.py	jcsmr/menus/views.py	1;"	kind:file	line:1
+wsgi.py	jcsmr/jcsmr/wsgi.py	1;"	kind:file	line:1

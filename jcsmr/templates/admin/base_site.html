@@ -1,0 +1,37 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_("JC's site admin") }}{% endblock %}
+{% block extrastyle %}
+<style> 
+   #header {
+       background-color: #0d406e;
+       color:  #00bc4b;
+   }
+   .module h2, .module caption, .inline-group h2 {
+       background: #0d406e; 
+   }
+   div.breadcrumbs {
+       background: #2e527a;       
+   }
+   .button.default:active, input[type=submit].default:active, .button.default:focus, input[type=submit].default:focus, .button.default:hover, input[type=submit].default:hover {
+   background: #00AD45;
+   }
+   .button.default, input[type=submit].default, .submit-row input.default {
+       background: rgb(73, 188, 130);
+   }
+   button, input[type=submit], input[type=button], .submit-row input, a.button {
+       background: #f77945;
+   }
+   .button:active, input[type=submit]:active, input[type=button]:active, .button:focus, input[type=submit]:focus, input[type=button]:focus, .button:hover, input[type=submit]:hover, input[type=button]:hover {
+       background: rgb(226, 105, 78);
+   }
+   #branding h1, #branding h1 a:link, #branding h1 a:visited {
+       color: #fff;
+   }
+</style>
+{% endblock %}
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}"><strong>JC's Administration</strong></a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

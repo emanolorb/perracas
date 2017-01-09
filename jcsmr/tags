@@ -1,0 +1,190 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	contacts/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	drinks/migrations/0001_initial.py	1;"	kind:file	line:1
+0001_initial.py	homepage/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	jcsmr/settings.py	/^ALLOWED_HOSTS = ['*',]$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	jcsmr/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:91
+AddContactForm	contacts/forms.py	/^class AddContactForm(forms.ModelForm):$/;"	kind:class	line:6
+BASE_DIR	jcsmr/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Contact	contacts/models.py	/^class Contact(models.Model):$/;"	kind:class	line:4
+ContactAdmin	contacts/admin.py	/^class ContactAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+ContactPageImage	homepage/models.py	/^class ContactPageImage(models.Model):$/;"	kind:class	line:80
+ContactPageImageAdmin	homepage/admin.py	/^class ContactPageImageAdmin(admin.ModelAdmin):$/;"	kind:class	line:15
+ContactsConfig	contacts/apps.py	/^class ContactsConfig(AppConfig):$/;"	kind:class	line:4
+DATABASES	jcsmr/settings.py	/^DATABASES = {$/;"	kind:variable	line:80
+DEBUG	jcsmr/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+Drink	drinks/models.py	/^class Drink(models.Model):$/;"	kind:class	line:4
+DrinkAdmin	drinks/admin.py	/^class DrinkAdmin(admin.ModelAdmin):$/;"	kind:class	line:7
+DrinksConfig	drinks/apps.py	/^class DrinksConfig(AppConfig):$/;"	kind:class	line:4
+Food	food/models.py	/^class Food(models.Model):$/;"	kind:class	line:4
+FoodAdmin	food/admin.py	/^class FoodAdmin(admin.ModelAdmin):$/;"	kind:class	line:7
+FoodConfig	food/apps.py	/^class FoodConfig(AppConfig):$/;"	kind:class	line:4
+HomePageImage	homepage/models.py	/^class HomePageImage(models.Model):$/;"	kind:class	line:5
+HomePageImageAdmin	homepage/admin.py	/^class HomePageImageAdmin(admin.ModelAdmin):$/;"	kind:class	line:5
+HomePageSlider	homepage/models.py	/^class HomePageSlider(models.Model):$/;"	kind:class	line:39
+HomePageSliderAdmin	homepage/admin.py	/^class HomePageSliderAdmin(admin.ModelAdmin):$/;"	kind:class	line:8
+HomePageText	homepage/models.py	/^class HomePageText(models.Model):$/;"	kind:class	line:57
+HomePageTextAdmin	homepage/admin.py	/^class HomePageTextAdmin(admin.ModelAdmin):$/;"	kind:class	line:11
+HomepageConfig	homepage/apps.py	/^class HomepageConfig(AppConfig):$/;"	kind:class	line:4
+INSTALLED_APPS	jcsmr/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	jcsmr/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:110
+MEDIA_ROOT	jcsmr/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'data\/media')/;"	kind:variable	line:128
+MEDIA_URL	jcsmr/settings.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:127
+MIDDLEWARE	jcsmr/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:46
+MenusConfig	menus/apps.py	/^class MenusConfig(AppConfig):$/;"	kind:class	line:4
+Meta	contacts/forms.py	/^    class Meta:$/;"	kind:class	line:7
+Migration	contacts/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	drinks/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	homepage/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+OverwriteStorage	homepage/storage.py	/^class OverwriteStorage(FileSystemStorage):$/;"	kind:class	line:5
+ROOT_URLCONF	jcsmr/settings.py	/^ROOT_URLCONF = 'jcsmr.urls'$/;"	kind:variable	line:56
+SECRET_KEY	jcsmr/settings.py	/^SECRET_KEY = ')6_ufzzhu5h+3mv+vk6mr_d5sdn@@me&0f)3$c3^%(#2)n$(%9'$/;"	kind:variable	line:23
+STATIC_ROOT	jcsmr/settings.py	/^STATIC_ROOT = os.path.join(BASE_DIR, 'data\/static')$/;"	kind:variable	line:125
+STATIC_URL	jcsmr/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:124
+TEMPLATES	jcsmr/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:58
+TIME_ZONE	jcsmr/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:112
+USE_I18N	jcsmr/settings.py	/^USE_I18N = True$/;"	kind:variable	line:114
+USE_L10N	jcsmr/settings.py	/^USE_L10N = True$/;"	kind:variable	line:116
+USE_TZ	jcsmr/settings.py	/^USE_TZ = True$/;"	kind:variable	line:118
+WSGI_APPLICATION	jcsmr/settings.py	/^WSGI_APPLICATION = 'jcsmr.wsgi.application'$/;"	kind:variable	line:74
+__init__.py	contacts/__init__.py	1;"	kind:file	line:1
+__init__.py	contacts/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	drinks/__init__.py	1;"	kind:file	line:1
+__init__.py	drinks/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	food/__init__.py	1;"	kind:file	line:1
+__init__.py	food/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	homepage/__init__.py	1;"	kind:file	line:1
+__init__.py	homepage/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/__init__.py	1;"	kind:file	line:1
+__init__.py	jcsmr/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	menus/__init__.py	1;"	kind:file	line:1
+__init__.py	menus/migrations/__init__.py	1;"	kind:file	line:1
+__str__	contacts/models.py	/^    def __str__(self):$/;"	kind:member	line:10
+__str__	drinks/models.py	/^    def __str__(self):$/;"	kind:member	line:10
+__str__	food/models.py	/^    def __str__(self):$/;"	kind:member	line:12
+__str__	homepage/models.py	/^    def __str__(self):$/;"	kind:member	line:35
+__str__	homepage/models.py	/^    def __str__(self):$/;"	kind:member	line:53
+__str__	homepage/models.py	/^    def __str__(self):$/;"	kind:member	line:76
+__str__	homepage/models.py	/^    def __str__(self):$/;"	kind:member	line:85
+admin.py	contacts/admin.py	1;"	kind:file	line:1
+admin.py	drinks/admin.py	1;"	kind:file	line:1
+admin.py	food/admin.py	1;"	kind:file	line:1
+admin.py	homepage/admin.py	1;"	kind:file	line:1
+admin.py	menus/admin.py	1;"	kind:file	line:1
+alcoholic_beverage	drinks/models.py	/^    alcoholic_beverage = models.BooleanField(default=False)$/;"	kind:variable	line:7
+aligned_caption	homepage/models.py	/^    aligned_caption = models.CharField($/;"	kind:variable	line:49
+application	jcsmr/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	contacts/apps.py	1;"	kind:file	line:1
+apps.py	drinks/apps.py	1;"	kind:file	line:1
+apps.py	food/apps.py	1;"	kind:file	line:1
+apps.py	homepage/apps.py	1;"	kind:file	line:1
+apps.py	menus/apps.py	1;"	kind:file	line:1
+big_tag_line	homepage/models.py	/^    big_tag_line = models.TextField()$/;"	kind:variable	line:41
+blank_panel_text	homepage/models.py	/^    blank_panel_text = models.TextField()$/;"	kind:variable	line:67
+blank_panel_text_2	homepage/models.py	/^    blank_panel_text_2 = models.TextField()$/;"	kind:variable	line:69
+blank_panel_title	homepage/models.py	/^    blank_panel_title = models.CharField(max_length = 80)$/;"	kind:variable	line:66
+blank_panel_title2	homepage/models.py	/^    blank_panel_title2 = models.CharField(max_length = 80)$/;"	kind:variable	line:68
+choices	homepage/models.py	/^        choices=(('c', 'center'), ('l', 'left'), ('r', 'right')),)$/;"	kind:variable	line:51
+choices	homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:44
+choices	homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:48
+choices	homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:61
+choices	homepage/models.py	/^        choices=(('lighten-5', 'white'), ('darken-1', 'grey'), ('darken-4', 'black')))$/;"	kind:variable	line:65
+color_big_tag	homepage/models.py	/^    color_big_tag = models.CharField($/;"	kind:variable	line:42
+color_small_tag	homepage/models.py	/^    color_small_tag = models.CharField($/;"	kind:variable	line:46
+color_small_tag	homepage/models.py	/^    color_small_tag = models.CharField($/;"	kind:variable	line:63
+color_title	homepage/models.py	/^    color_title = models.CharField($/;"	kind:variable	line:59
+contact	homepage/views.py	/^def contact(request):$/;"	kind:function	line:62
+contact_image	homepage/models.py	/^    contact_image = models.ImageField()$/;"	kind:variable	line:81
+dependencies	contacts/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	drinks/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	homepage/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+description	drinks/models.py	/^    description = models.TextField()$/;"	kind:variable	line:6
+description	food/models.py	/^    description = models.TextField()$/;"	kind:variable	line:6
+dinner	food/models.py	/^    dinner = models.BooleanField(default=False)$/;"	kind:variable	line:9
+email	contacts/models.py	/^    email = models.CharField(max_length = 80)$/;"	kind:variable	line:7
+favicon	homepage/models.py	/^    favicon = models.ImageField()$/;"	kind:variable	line:6
+fields	contacts/forms.py	/^        fields = ['first_name', 'phone', 'email', 'message']/;"	kind:variable	line:9
+fields	contacts/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	drinks/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	homepage/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+fields	homepage/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:28
+fields	homepage/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:40
+first_name	contacts/models.py	/^    first_name = models.CharField(max_length=80)$/;"	kind:variable	line:5
+forms.py	contacts/forms.py	1;"	kind:file	line:1
+get_available_name	homepage/storage.py	/^    def get_available_name(self, name):$/;"	kind:member	line:7
+index	homepage/views.py	/^def index(request):$/;"	kind:function	line:6
+initial	contacts/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+initial	drinks/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+initial	homepage/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+list_display	drinks/admin.py	/^    list_display = ['name', 'alcoholic_beverage']$/;"	kind:variable	line:8
+list_display	food/admin.py	/^    list_display = ['name']$/;"	kind:variable	line:8
+list_filter	drinks/admin.py	/^    list_filter = ['name', 'uploaded_at']$/;"	kind:variable	line:11
+list_filter	food/admin.py	/^    list_filter = ['name', 'uploaded_at', 'takeout', 'lunch', 'dinner']$/;"	kind:variable	line:11
+lunch	food/models.py	/^    lunch = models.BooleanField(default=False)$/;"	kind:variable	line:8
+main_icon	homepage/models.py	/^    main_icon = models.ImageField()$/;"	kind:variable	line:7
+manage.py	manage.py	1;"	kind:file	line:1
+max_length	homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:43
+max_length	homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:47
+max_length	homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:50
+max_length	homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:60
+max_length	homepage/models.py	/^        max_length=10,$/;"	kind:variable	line:64
+message	contacts/models.py	/^    message = models.TextField()$/;"	kind:variable	line:8
+model	contacts/forms.py	/^        model = Contact$/;"	kind:variable	line:8
+models.py	contacts/models.py	1;"	kind:file	line:1
+models.py	drinks/models.py	1;"	kind:file	line:1
+models.py	food/models.py	1;"	kind:file	line:1
+models.py	homepage/models.py	1;"	kind:file	line:1
+models.py	menus/models.py	1;"	kind:file	line:1
+name	contacts/apps.py	/^    name = 'contacts'$/;"	kind:variable	line:5
+name	contacts/migrations/0001_initial.py	/^            name='Contact',$/;"	kind:variable	line:17
+name	drinks/apps.py	/^    name = 'drinks'$/;"	kind:variable	line:5
+name	drinks/migrations/0001_initial.py	/^            name='Drink',$/;"	kind:variable	line:17
+name	drinks/models.py	/^    name = models.CharField(max_length=80)$/;"	kind:variable	line:5
+name	food/apps.py	/^    name = 'food'$/;"	kind:variable	line:5
+name	food/models.py	/^    name = models.CharField(max_length=80)$/;"	kind:variable	line:5
+name	homepage/apps.py	/^    name = 'homepage'$/;"	kind:variable	line:5
+name	homepage/migrations/0001_initial.py	/^            name='HomePageImage',$/;"	kind:variable	line:17
+name	homepage/migrations/0001_initial.py	/^            name='HomePageSlider',$/;"	kind:variable	line:27
+name	homepage/migrations/0001_initial.py	/^            name='HomePageText',$/;"	kind:variable	line:39
+name	menus/apps.py	/^    name = 'menus'$/;"	kind:variable	line:5
+operations	contacts/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	drinks/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	homepage/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+parallax_image1	homepage/models.py	/^    parallax_image1 = models.ImageField()$/;"	kind:variable	line:8
+parallax_image2	homepage/models.py	/^    parallax_image2 = models.ImageField()$/;"	kind:variable	line:9
+phone	contacts/models.py	/^    phone = models.CharField(max_length=80)$/;"	kind:variable	line:6
+readonly_fields	drinks/admin.py	/^    readonly_fields = ['uploaded_at']$/;"	kind:variable	line:9
+readonly_fields	food/admin.py	/^    readonly_fields = ['uploaded_at']$/;"	kind:variable	line:9
+save	homepage/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:11
+save	homepage/models.py	/^    def save(self, *args, **kwargs):$/;"	kind:member	line:71
+serch_fields	drinks/admin.py	/^    serch_fields = ['name']$/;"	kind:variable	line:10
+serch_fields	food/admin.py	/^    serch_fields = ['name', 'takeout', 'lunch', 'dinner']$/;"	kind:variable	line:10
+settings.py	jcsmr/settings.py	1;"	kind:file	line:1
+slider_image	homepage/models.py	/^    slider_image = models.ImageField()$/;"	kind:variable	line:40
+small_slogan	homepage/models.py	/^    small_slogan = models.TextField()$/;"	kind:variable	line:45
+storage.py	homepage/storage.py	1;"	kind:file	line:1
+subtitle	homepage/models.py	/^    subtitle = models.TextField()$/;"	kind:variable	line:62
+takeout	food/models.py	/^    takeout = models.BooleanField(default=False)$/;"	kind:variable	line:7
+tests.py	contacts/tests.py	1;"	kind:file	line:1
+tests.py	drinks/tests.py	1;"	kind:file	line:1
+tests.py	food/tests.py	1;"	kind:file	line:1
+tests.py	homepage/tests.py	1;"	kind:file	line:1
+tests.py	menus/tests.py	1;"	kind:file	line:1
+text1	homepage/models.py	/^    text1 = models.TextField()$/;"	kind:variable	line:82
+text2	homepage/models.py	/^    text2 = models.TextField()$/;"	kind:variable	line:83
+title	homepage/models.py	/^    title = models.CharField(max_length=80)$/;"	kind:variable	line:58
+uploaded_at	drinks/models.py	/^    uploaded_at = models.DateTimeField(auto_now_add=True, editable=False)$/;"	kind:variable	line:8
+uploaded_at	food/models.py	/^    uploaded_at = models.DateTimeField(auto_now_add=True, editable=False)$/;"	kind:variable	line:10
+urlpatterns	jcsmr/urls.py	/^urlpatterns = [$/;"	kind:variable	line:21
+urls.py	jcsmr/urls.py	1;"	kind:file	line:1
+views.py	contacts/views.py	1;"	kind:file	line:1
+views.py	drinks/views.py	1;"	kind:file	line:1
+views.py	food/views.py	1;"	kind:file	line:1
+views.py	homepage/views.py	1;"	kind:file	line:1
+views.py	menus/views.py	1;"	kind:file	line:1
+wsgi.py	jcsmr/wsgi.py	1;"	kind:file	line:1
